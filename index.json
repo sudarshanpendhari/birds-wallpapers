@@ -1,7 +1,410 @@
-[
-  {
-    "file": "images/bird_20250907_061906.jpg",
-    "source_url": "https://images.pexels.com/photos/459326/pexels-photo-459326.jpeg",
-    "timestamp": "2025-09-07T06:19:06.647019"
-  }
-]
+{
+  "mobile": [
+    {
+      "url": "https://i.ibb.co/LBctxg6/mobile-20250907-095153-515027-2848-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:51:55.320784"
+    },
+    {
+      "url": "https://i.ibb.co/pv2XbvLY/mobile-20250907-095156-546176-5550-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:51:59.085004"
+    },
+    {
+      "url": "https://i.ibb.co/spJTt1MS/mobile-20250907-095200-319495-3148-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:02.142015"
+    },
+    {
+      "url": "https://i.ibb.co/sp3PSLWW/mobile-20250907-095203-342554-7795-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:07.125421"
+    },
+    {
+      "url": "https://i.ibb.co/jvLj5qBD/mobile-20250907-095208-378881-1671-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:09.908705"
+    },
+    {
+      "url": "https://i.ibb.co/B2np5ft4/mobile-20250907-095211-201352-2762-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:13.171428"
+    },
+    {
+      "url": "https://i.ibb.co/gL4K7Jkg/mobile-20250907-095214-604053-1885-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:16.388463"
+    },
+    {
+      "url": "https://i.ibb.co/R4TNVPyh/mobile-20250907-095217-584756-4688-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:19.189417"
+    },
+    {
+      "url": "https://i.ibb.co/8L5WysBY/mobile-20250907-095220-611563-7080-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:22.031022"
+    },
+    {
+      "url": "https://i.ibb.co/GDxs49b/mobile-20250907-095223-283788-5821-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:26.288837"
+    },
+    {
+      "url": "https://i.ibb.co/BKy0ZzYm/mobile-20250907-095227-493250-2510-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:28.611329"
+    },
+    {
+      "url": "https://i.ibb.co/MxBJD4LW/mobile-20250907-095229-811032-9190-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:31.176583"
+    },
+    {
+      "url": "https://i.ibb.co/TqM7wM0w/mobile-20250907-095232-582248-6422-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:33.982450"
+    },
+    {
+      "url": "https://i.ibb.co/1Gjk09PP/mobile-20250907-095235-272976-3771-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:36.411343"
+    },
+    {
+      "url": "https://i.ibb.co/pBkKVfrW/mobile-20250907-095237-614406-3921-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:38.710228"
+    },
+    {
+      "url": "https://i.ibb.co/DgQstZQw/mobile-20250907-095239-930959-9332-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:41.516122"
+    },
+    {
+      "url": "https://i.ibb.co/dwFdYks5/mobile-20250907-095242-789884-6584-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:43.960319"
+    },
+    {
+      "url": "https://i.ibb.co/wrFynmgx/mobile-20250907-095245-215814-2648-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:46.263186"
+    },
+    {
+      "url": "https://i.ibb.co/Mx9H45vB/mobile-20250907-095247-549887-2183-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:48.586457"
+    },
+    {
+      "url": "https://i.ibb.co/9k058NWp/mobile-20250907-095249-787118-4078-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2025-09-07T09:52:50.641244"
+    }
+  ],
+  "tablet": [
+    {
+      "url": "https://i.ibb.co/tMDGZnk2/tablet-20250907-095252-523014-1832-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:52:54.034511"
+    },
+    {
+      "url": "https://i.ibb.co/HLLsGGLC/tablet-20250907-095255-301189-9262-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:52:56.592349"
+    },
+    {
+      "url": "https://i.ibb.co/bg3BDv5v/tablet-20250907-095258-131223-8499-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:52:59.310404"
+    },
+    {
+      "url": "https://i.ibb.co/MxBJD4LW/mobile-20250907-095229-811032-9190-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:01.661437"
+    },
+    {
+      "url": "https://i.ibb.co/1Gjk09PP/mobile-20250907-095235-272976-3771-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:03.950170"
+    },
+    {
+      "url": "https://i.ibb.co/b5H8MLJX/tablet-20250907-095305-202587-6607-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:06.778059"
+    },
+    {
+      "url": "https://i.ibb.co/4g0mJfTF/tablet-20250907-095308-041411-9865-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:10.958105"
+    },
+    {
+      "url": "https://i.ibb.co/5g67dvDc/tablet-20250907-095312-156796-5436-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:14.008264"
+    },
+    {
+      "url": "https://i.ibb.co/PdPjb0X/tablet-20250907-095315-241329-4121-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:18.089420"
+    },
+    {
+      "url": "https://i.ibb.co/KzcZd6Kc/tablet-20250907-095319-397629-6739-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:22.694208"
+    },
+    {
+      "url": "https://i.ibb.co/VchWqSHh/tablet-20250907-095324-161242-4468-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:26.815021"
+    },
+    {
+      "url": "https://i.ibb.co/KxfRgDnr/tablet-20250907-095328-111129-3598-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:29.993946"
+    },
+    {
+      "url": "https://i.ibb.co/Zpfdx2Pg/tablet-20250907-095331-215972-3345-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:33.071522"
+    },
+    {
+      "url": "https://i.ibb.co/9mQXvD5n/tablet-20250907-095334-296018-2708-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:35.797242"
+    },
+    {
+      "url": "https://i.ibb.co/SwGwShcP/tablet-20250907-095337-027015-9874-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:39.681437"
+    },
+    {
+      "url": "https://i.ibb.co/LBctxg6/mobile-20250907-095153-515027-2848-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:42.030754"
+    },
+    {
+      "url": "https://i.ibb.co/fzq5zhsr/tablet-20250907-095343-261683-7938-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:44.321353"
+    },
+    {
+      "url": "https://i.ibb.co/KcQzWYxD/tablet-20250907-095345-553785-9248-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:46.988175"
+    },
+    {
+      "url": "https://i.ibb.co/yr2NqL9/tablet-20250907-095348-218679-9734-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:49.587657"
+    },
+    {
+      "url": "https://i.ibb.co/HLbzvt7d/tablet-20250907-095350-964918-6049-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2025-09-07T09:53:53.214069"
+    }
+  ],
+  "other_mobile": [
+    {
+      "url": "https://i.ibb.co/kVgCDBQm/other-mobile-20250907-095354-766183-8356-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:53:56.663908"
+    },
+    {
+      "url": "https://i.ibb.co/LBctxg6/mobile-20250907-095153-515027-2848-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:53:59.218123"
+    },
+    {
+      "url": "https://i.ibb.co/TxWd1NSN/other-mobile-20250907-095400-424539-6905-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:02.730513"
+    },
+    {
+      "url": "https://i.ibb.co/LhpJ31Zj/other-mobile-20250907-095403-955576-1993-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:05.612431"
+    },
+    {
+      "url": "https://i.ibb.co/vxqwmFnT/other-mobile-20250907-095406-812989-1522-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:09.289337"
+    },
+    {
+      "url": "https://i.ibb.co/vCn9MfQm/other-mobile-20250907-095410-516829-3129-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:12.337400"
+    },
+    {
+      "url": "https://i.ibb.co/TBFnZK9m/other-mobile-20250907-095413-560154-4724-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:17.762640"
+    },
+    {
+      "url": "https://i.ibb.co/bMmW4v1C/other-mobile-20250907-095419-170049-8642-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:21.143643"
+    },
+    {
+      "url": "https://i.ibb.co/pv2XbvLY/mobile-20250907-095156-546176-5550-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:24.331911"
+    },
+    {
+      "url": "https://i.ibb.co/nMfKLfD5/other-mobile-20250907-095425-582661-3087-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:28.207353"
+    },
+    {
+      "url": "https://i.ibb.co/jvgFTpgS/other-mobile-20250907-095429-418462-1074-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:30.768161"
+    },
+    {
+      "url": "https://i.ibb.co/GDxs49b/mobile-20250907-095223-283788-5821-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:33.434312"
+    },
+    {
+      "url": "https://i.ibb.co/LzKNr9Hb/other-mobile-20250907-095434-629852-9400-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:36.614461"
+    },
+    {
+      "url": "https://i.ibb.co/twS6gwJs/other-mobile-20250907-095437-914119-5897-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:38.989224"
+    },
+    {
+      "url": "https://i.ibb.co/VWZPj2jW/other-mobile-20250907-095440-209977-8900-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:41.634845"
+    },
+    {
+      "url": "https://i.ibb.co/3mjhXDvL/other-mobile-20250907-095442-857113-9368-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:44.076411"
+    },
+    {
+      "url": "https://i.ibb.co/spJTt1MS/mobile-20250907-095200-319495-3148-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:46.746805"
+    },
+    {
+      "url": "https://i.ibb.co/QvKQ6Jkp/other-mobile-20250907-095447-957123-7847-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:49.130887"
+    },
+    {
+      "url": "https://i.ibb.co/b54th3B2/other-mobile-20250907-095450-437797-8477-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:51.534486"
+    },
+    {
+      "url": "https://i.ibb.co/MxBJD4LW/mobile-20250907-095229-811032-9190-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2025-09-07T09:54:54.164426"
+    }
+  ],
+  "other_tablet": [
+    {
+      "url": "https://i.ibb.co/tMDGZnk2/tablet-20250907-095252-523014-1832-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:54:57.079150"
+    },
+    {
+      "url": "https://i.ibb.co/HLLsGGLC/tablet-20250907-095255-301189-9262-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:54:59.533420"
+    },
+    {
+      "url": "https://i.ibb.co/bg3BDv5v/tablet-20250907-095258-131223-8499-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:01.862824"
+    },
+    {
+      "url": "https://i.ibb.co/5hqP8RvK/other-tablet-20250907-095503-080907-2781-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:04.896233"
+    },
+    {
+      "url": "https://i.ibb.co/KxLNwqtM/other-tablet-20250907-095506-084625-8477-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:07.136845"
+    },
+    {
+      "url": "https://i.ibb.co/7t2VPt0c/other-tablet-20250907-095508-373540-9268-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:09.890494"
+    },
+    {
+      "url": "https://i.ibb.co/xtypHXLH/other-tablet-20250907-095512-098756-5511-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:14.888514"
+    },
+    {
+      "url": "https://i.ibb.co/KpGMhxBJ/other-tablet-20250907-095516-289918-7564-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:18.154663"
+    },
+    {
+      "url": "https://i.ibb.co/TxGjKShy/other-tablet-20250907-095519-354600-2856-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:26.672782"
+    },
+    {
+      "url": "https://i.ibb.co/5XkttWTn/other-tablet-20250907-095527-974015-9284-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:32.726659"
+    },
+    {
+      "url": "https://i.ibb.co/xtqjdB5R/other-tablet-20250907-095533-933268-4146-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:36.967311"
+    },
+    {
+      "url": "https://i.ibb.co/5gFhMLjN/other-tablet-20250907-095538-193087-4490-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:40.041442"
+    },
+    {
+      "url": "https://i.ibb.co/tthtsfn/other-tablet-20250907-095541-340528-4835-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:42.913775"
+    },
+    {
+      "url": "https://i.ibb.co/B5y6CSFL/other-tablet-20250907-095544-133171-6868-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:45.653409"
+    },
+    {
+      "url": "https://i.ibb.co/352jT7Gj/other-tablet-20250907-095546-941447-8455-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:48.446303"
+    },
+    {
+      "url": "https://i.ibb.co/tMqnLx5t/other-tablet-20250907-095549-684886-8480-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:51.030063"
+    },
+    {
+      "url": "https://i.ibb.co/1ffjkkqQ/other-tablet-20250907-095552-240300-2760-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:53.562374"
+    },
+    {
+      "url": "https://i.ibb.co/BK62kdZY/other-tablet-20250907-095554-799093-4420-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:55:56.549071"
+    },
+    {
+      "url": "https://i.ibb.co/Y7QDGn99/other-tablet-20250907-095557-977141-9590-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:56:06.153945"
+    },
+    {
+      "url": "https://i.ibb.co/G4Pf8dh0/other-tablet-20250907-095607-583798-6529-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2025-09-07T09:56:09.024786"
+    }
+  ]
+}
