@@ -24,6 +24,9 @@ index_file = Path("index.json")
 if index_file.exists():
     with open(index_file) as f:
         index_data = json.load(f)
+    # force dict
+    if isinstance(index_data, list):
+        index_data = {}
 else:
     index_data = {}
 
