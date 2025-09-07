@@ -7,8 +7,9 @@ from PIL import Image
 from io import BytesIO
 import time
 import random
+import base64
 
-# Categories and their search keywords
+# Categories and search queries
 categories = {
     "mobile": "mobile wallpaper bird",
     "tablet": "tablet wallpaper bird",
@@ -16,23 +17,13 @@ categories = {
     "other_tablet": "tablet highres bird"
 }
 
-min_images = 10  # minimum images per category
-
-images_dir = Path("images")
-images_dir.mkdir(exist_ok=True)
+min_images = 10
+index_file = Path("index.json")
 
 # Load existing index.json
-index_file = Path("index.json")
 if index_file.exists():
     with open(index_file) as f:
-        try:
-            index_data = json.load(f)
-            if not isinstance(index_data, dict):
-                print("index.json is not a dict, resetting it.")
-                index_data = {}
-        except json.JSONDecodeError:
-            print("index.json is invalid, resetting it.")
-            index_data = {}
+        index_data = json.load(f)
 else:
     index_data = {}
 
@@ -48,44 +39,61 @@ def fetch_pixabay_images(query, per_page=20):
     resp = requests.get(url).json()
     return [hit["largeImageURL"] for hit in resp.get("hits", [])]
 
-def download_image(url, path):
-    resp = requests.get(url, timeout=10)
-    img = Image.open(BytesIO(resp.content))
-    img.save(path)
+def upload_to_imgbb(image_bytes, name):
+    key = os.getenv("IMGBB_KEY")
+    url = "https://api.imgbb.com/1/upload"
+    b64 = base64.b64encode(image_bytes).decode("utf-8")
+    payload = {
+        "key": key,
+        "image": b64,
+        "name": name
+    }
+    resp = requests.post(url, data=payload)
+    if resp.status_code == 200:
+        return resp.json()["data"]["url"]
+    else:
+        print("ImgBB upload failed:", resp.text)
+        return None
 
+def download_and_upload(url, category):
+    resp = requests.get(url, timeout=15)
+    if resp.status_code != 200:
+        raise Exception(f"Download failed: {url}")
+
+    # unique filename
+    timestamp = datetime.now().strftime('%Y%m%d-%H%M%S-%f')
+    rand_suffix = random.randint(1000, 9999)
+    filename = f"{category}-{timestamp}-{rand_suffix}.jpg"
+
+    # upload to ImgBB
+    uploaded_url = upload_to_imgbb(resp.content, filename)
+    if not uploaded_url:
+        raise Exception("Upload to ImgBB failed")
+
+    return {
+        "url": uploaded_url,
+        "category": category,
+        "date_added": datetime.now().isoformat()
+    }
+
+# Main loop
 for cat, keyword in categories.items():
-    cat_dir = images_dir / cat
-    cat_dir.mkdir(exist_ok=True)
-    
-    # Fetch images from both APIs
     urls = fetch_pexels_images(keyword)
     if len(urls) < min_images:
         urls += fetch_pixabay_images(keyword)
-    
-    # Remove duplicates
-    urls = list(dict.fromkeys(urls))
-    
-    # Ensure at least min_images (if not, will download as many as available)
-    urls_to_download = urls[:max(min_images, len(urls))]
-    
+
+    urls = list(dict.fromkeys(urls))  # dedupe
+    urls_to_process = urls[:max(min_images, len(urls))]
+
     index_data.setdefault(cat, [])
-    
-    for url in urls_to_download:
-        timestamp = datetime.now().strftime('%Y%m%d-%H%M%S-%f')
-        rand_suffix = random.randint(1000,9999)
-        filename = f"{cat}-{timestamp}-{rand_suffix}.jpg"
-        file_path = cat_dir / filename
+
+    for url in urls_to_process:
         try:
-            download_image(url, file_path)
-            index_data[cat].append({
-                "file": str(file_path),
-                "url": url,
-                "category": cat,
-                "downloaded_at": datetime.now().isoformat()
-            })
-            time.sleep(0.5)  # avoid hitting API rate limits
+            meta = download_and_upload(url, cat)
+            index_data[cat].append(meta)
+            time.sleep(1)  # rate limit
         except Exception as e:
-            print(f"Failed to download {url}: {e}")
+            print(f"Error processing {url}: {e}")
 
 # Save updated index.json
 with open(index_file, "w") as f:
