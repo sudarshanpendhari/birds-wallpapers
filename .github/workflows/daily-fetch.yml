@@ -40,7 +40,7 @@ jobs:
           git add index.json || true
           if ! git diff --cached --quiet; then
             git commit -m "chore: update index.json with ImgBB URLs (auto)"
-            git push https://x-access-token:${PAT_TOKEN}@github.com/sudarshanpendhari/bird-wallpapers.git HEAD:master
+            git push https://x-access-token:${PAT_TOKEN}@github.com/sudarshanpendhari/birds-wallpapers.git HEAD:master
           else
             echo "No changes to commit"
           fi
