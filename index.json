@@ -14154,6 +14154,16 @@
       "url": "https://i.ibb.co/3YBgjBrk/mobile-20260714-072502-948641-9666-jpg.jpg",
       "category": "mobile",
       "date_added": "2026-07-14T07:25:04.106616"
+    },
+    {
+      "url": "https://i.ibb.co/j9VPqkJW/mobile-20260801-074110-287774-9252-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2026-08-01T07:41:11.266798"
+    },
+    {
+      "url": "https://i.ibb.co/YFkLq8PZ/mobile-20260801-074112-521970-8505-jpg.jpg",
+      "category": "mobile",
+      "date_added": "2026-08-01T07:41:13.423224"
     }
   ],
   "tablet": [
@@ -28276,6 +28286,26 @@
       "url": "https://i.ibb.co/hrQnDSr/tablet-20260714-072558-208696-5640-jpg.jpg",
       "category": "tablet",
       "date_added": "2026-07-14T07:25:59.150800"
+    },
+    {
+      "url": "https://i.ibb.co/fsgy5Yg/tablet-20260801-074115-204552-9023-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2026-08-01T07:41:16.156643"
+    },
+    {
+      "url": "https://i.ibb.co/CqFG254/tablet-20260801-074117-429375-7579-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2026-08-01T07:41:18.510211"
+    },
+    {
+      "url": "https://i.ibb.co/GQ3fXhC5/tablet-20260801-074120-318375-9349-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2026-08-01T07:41:20.987130"
+    },
+    {
+      "url": "https://i.ibb.co/YTpWwYm4/tablet-20260801-074122-300232-4525-jpg.jpg",
+      "category": "tablet",
+      "date_added": "2026-08-01T07:41:23.173372"
     }
   ],
   "other_mobile": [
@@ -41668,6 +41698,16 @@
       "url": "https://i.ibb.co/v6Hg03WJ/mobile-20260714-072438-616204-8569-jpg.jpg",
       "category": "other_mobile",
       "date_added": "2026-07-14T07:26:49.000457"
+    },
+    {
+      "url": "https://i.ibb.co/QF5JNdyG/other-mobile-20260801-074125-273311-1240-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2026-08-01T07:41:26.197097"
+    },
+    {
+      "url": "https://i.ibb.co/j9VPqkJW/mobile-20260801-074110-287774-9252-jpg.jpg",
+      "category": "other_mobile",
+      "date_added": "2026-08-01T07:41:28.015185"
     }
   ],
   "other_tablet": [
@@ -54925,6 +54965,16 @@
       "url": "https://i.ibb.co/YBLQDg34/other-tablet-20260714-072702-884762-3654-jpg.jpg",
       "category": "other_tablet",
       "date_added": "2026-07-14T07:27:04.131963"
+    },
+    {
+      "url": "https://i.ibb.co/C51Qkptr/other-tablet-20260801-074129-662551-4374-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2026-08-01T07:41:30.673080"
+    },
+    {
+      "url": "https://i.ibb.co/F4PkdQv4/other-tablet-20260801-074132-272963-1426-jpg.jpg",
+      "category": "other_tablet",
+      "date_added": "2026-08-01T07:41:33.435328"
     }
   ]
 }
